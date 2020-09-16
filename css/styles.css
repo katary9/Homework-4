@@ -48,11 +48,15 @@ img.cloud {
  
 }
 img.flag {
-    justify-content: center;
-    align-items: center;
-    margin-right: 11px;
-    width: 32px;
-    height: 32px;
+    position: absolute;
+    top: 50px;
+    left: 993px;
+width: 32px;
+height: 32px;
+
+
+  
+    
 }
 
 p.language {
@@ -70,9 +74,6 @@ img.triangle {
     width: 12.38px;
     height: 7.45px;
     margin-right: 28.81px;
-    
-}
-div {
     
 }
 .text-logo {
