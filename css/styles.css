@@ -17,7 +17,6 @@ body {
 
 header {
     display: flex;     /*блоки делает подряд в линеечку*/
-    
     cursor: pointer;   /*чтобы отображалась мышка когда наводишь*/
     padding-left: 166px;
     margin-top: 58px;
@@ -51,12 +50,8 @@ img.flag {
     position: absolute;
     top: 50px;
     left: 993px;
-width: 32px;
-height: 32px;
-
-
-  
-    
+    width: 32px;
+    height: 32px;   
 }
 
 p.language {
@@ -102,10 +97,7 @@ img.triangle {
 .selection {
     display: flex;
     text-align: center;
-    
     padding-bottom: 6px;
-    
-
 }
 main {
     display: flex;
@@ -119,47 +111,37 @@ h1 {
     padding-left: 431px;
     margin-bottom: 39px;
     font-family: Lato;
-font-style: normal;
-font-weight: bold;
-font-size: 72px;
-line-height: 86px;
-display: flex;
-align-items: center;
-letter-spacing: 0.05em;
-text-transform: uppercase;
-
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
 }
 .text {
     width: 492px;
-  height: 101px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 150%;
-  margin: 0 auto;
-  text-align: center;
-  word-spacing: 4px;
+    height: 101px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    margin: 0 auto;
+    text-align: center;
+    word-spacing: 4px;
 }
 .button-sign {
     margin-top: 39px;
-   position: absolute;
-width: 160px;
-height: 50px;
-left: 640px;
-border-color: rgba(248, 22, 22, 0.801);
-
-background: #FFFFFF;
-border-radius: 6px;
-font-style: normal;
-
-font-size: 14px;
-
-
-
-text-transform: uppercase;
-
-color: #ED4C5C;
-
-
-
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    left: 640px;
+    border-color: rgba(248, 22, 22, 0.801);
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-style: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ED4C5C;
 }
