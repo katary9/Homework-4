@@ -9,7 +9,9 @@ body {
     background-position: center;
     background-size: cover;
     max-width: 100%;
+    max-height: 100%;
     color: #fff; 
+    
 }
 
 header {
@@ -40,14 +42,14 @@ img.cloud {
     margin-right: 9.9px;
     width: 24.65px;
     height: 17.4px;
- 
-}
+}  
+
 img.flag {
     position: absolute;
     top: 50px;
     left: 993px;
     width: 32px;
-    height: 32px;   
+    height: 32px;      
 }
 
 p.language {
@@ -104,17 +106,17 @@ main {
     text-align: center;
 }
 h1 {
-    padding-left: 431px;
+    
     margin-bottom: 39px;
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
     font-size: 72px;
     line-height: 86px;
-    display: flex;
     align-items: center;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    text-align: center;
 }
 .text {
     width: 492px;
@@ -125,15 +127,13 @@ h1 {
     line-height: 150%;
     margin: 0 auto;
     text-align: center;
-    padding-right: 70px;
     word-spacing: 4px;
 }
 .button-sign {
-    margin-top: 39px;
-    position: absolute;
+    display: block; /*центрирует*/
+    margin: auto;
     width: 160px;
     height: 50px;
-    left: 640px;
     border-color: rgba(248, 22, 22, 0.801);
     background: #FFFFFF;
     border-radius: 6px;
@@ -141,4 +141,5 @@ h1 {
     font-size: 14px;
     text-transform: uppercase;
     color: #ED4C5C;
+    margin-top: 39px;    
 }
